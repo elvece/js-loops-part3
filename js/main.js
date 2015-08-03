@@ -59,6 +59,14 @@ students.forEach(function(student){
   }
 });
 
+//problem 4 solution using filter
+function isCorrectAge(value) {
+  if (value.age > 25) {
+    console.log(value.name +' is older than 25');
+  }
+}
+var filteredAge = students.filter(isCorrectAge);
+
 
 
 
